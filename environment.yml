@@ -1,0 +1,24 @@
+name: bcaus_nma
+channels:
+ - defaults
+ - anaconda
+ - conda-forge
+ - intel
+dependencies:
+ - python=3.7
+ - numpy=1.19.5
+ - jupyter=1.0.0
+ - pandas=0.25.0
+ - pyarrow=1.0.1
+ - pymc3=3.10.0
+ - pyyaml=5.4.1
+ - scikit-learn=0.24.0
+ - scipy=1.6.1
+ - statsmodels=0.12.2
+ - theano-pymc=1.0.11
+ - pytorch=1.7.1
+ - xarray=0.16.0
+ - matplotlib=3.3.4
+ - seaborn=0.11.1
+ - plotly=4.14.3
+
