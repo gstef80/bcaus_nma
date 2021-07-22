@@ -43,6 +43,13 @@ for cohort in clinical_cohorts:
     # perform NMA on ATEs
     ranks = NMA(ate_estimates)
 ```
- 
+### Settings for MCMC (NMA)
+- trace_samples=100000
+- burn_ratio=0.5
+- num_chains=4
+<br>The choice of these values was based on NICE DSU TECHNICAL SUPPORT 
+  DOCUMENT 2 (http://nicedsu.org.uk/wp-content/uploads/2017/05/TSD2-General-meta-analysis-corrected-2Sep2016v2.pdf).
+  
+
 
 
