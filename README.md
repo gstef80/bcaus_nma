@@ -6,7 +6,7 @@ using real-world data.
 The core methodology is a novel neural network approach which uses 
 a custom loss function to explicitly balance covariates in addition 
 to specifying propensity for IPTW ATE estimations and is described 
-in the manuscript entitled: 
+in the manuscript titled: 
 *"Minimizing Bias in Massive Multi-Arm Observational Studies with BCAUS: 
 Balancing Covariates Automatically Using Supervision"*. 
 The code can be found in `bcaus.py` and a demonstration of its usage 
